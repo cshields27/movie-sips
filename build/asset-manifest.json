@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/movie-sips/static/js/main.bbd8aefa.js",
+    "main.js": "/movie-sips/static/js/main.3209b4ae.js",
     "index.html": "/movie-sips/index.html",
-    "main.bbd8aefa.js.map": "/movie-sips/static/js/main.bbd8aefa.js.map"
+    "main.3209b4ae.js.map": "/movie-sips/static/js/main.3209b4ae.js.map"
   },
   "entrypoints": [
-    "static/js/main.bbd8aefa.js"
+    "static/js/main.3209b4ae.js"
   ]
 }

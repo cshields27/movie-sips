@@ -4,6 +4,7 @@ import Body from "./components/Body"
 import RulesInput from "./components/RulesInput"
 import GameRules from "./components/GameRules"
 import LoadingSpinner from "./components/LoadingSpinner"
+import Footer from "./components/Footer"
 
 export default function App() {
     const [gameGenerated, setGameGenerated] = useState(false);
@@ -91,6 +92,7 @@ export default function App() {
         )}
         {generationError && <p className="error-message">Failed to generate game rules. Please try again.</p>}
         {gameGenerated && <GameRules rules={gameRules}/>}
+        <Footer />
       </div>
     )
 }
