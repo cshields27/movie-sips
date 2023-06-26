@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/static/js/main.bbd8aefa.js",
-    "index.html": "/index.html",
-    "main.bbd8aefa.js.map": "/static/js/main.bbd8aefa.js.map"
+    "main.js": "/%3Crepository-name%3E/static/js/main.bbd8aefa.js",
+    "index.html": "/%3Crepository-name%3E/index.html",
+    "main.bbd8aefa.js.map": "/%3Crepository-name%3E/static/js/main.bbd8aefa.js.map"
   },
   "entrypoints": [
     "static/js/main.bbd8aefa.js"
