@@ -80,18 +80,20 @@ export default function App() {
     return (
       <div className="container">
         <Header />
-        <Body />
-        <RulesInput generateGame={handleGenerateGame}/>
-        {isLoading && (
-          <div className="loading-message">
-            <div className="loading-spinner">
-              <LoadingSpinner />
+        <div className="content-container">
+          <Body />
+          <RulesInput generateGame={handleGenerateGame}/>
+          {isLoading && (
+            <div className="loading-message">
+              <div className="loading-spinner">
+                <LoadingSpinner />
+              </div>
+              <p>Loading...</p>
             </div>
-            <p>Loading...</p>
-          </div>
-        )}
-        {generationError && <p className="error-message">Failed to generate game rules. Please try again.</p>}
-        {gameGenerated && <GameRules rules={gameRules}/>}
+          )}
+          {generationError && <p className="error-message">Failed to generate game rules. Please try again.</p>}
+          {gameGenerated && <GameRules rules={gameRules}/>}
+        </div>
         <Footer />
       </div>
     )

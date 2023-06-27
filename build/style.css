@@ -155,7 +155,15 @@ input {
   bottom: 0;
   width: 100%;
   font-family: "Lexend Deca", sans-serif;
+  height: 60px; /* Adjust the height as needed */
 }
+
+.content-container {
+  overflow-y: auto;
+  max-height: calc(100vh - 60px);
+  margin-bottom: 20px;
+}
+
 @media (max-width: 768px) {
   .header {
     font-size: 2.8rem; /* Adjust the font size for mobile */
