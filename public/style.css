@@ -159,9 +159,7 @@ input {
 }
 
 .content-container {
-  overflow-y: auto;
-  max-height: calc(100vh - 60px);
-  margin-bottom: 20px;
+  margin-bottom: 60px;
 }
 
 @media (max-width: 768px) {
