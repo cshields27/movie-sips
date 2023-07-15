@@ -14,7 +14,7 @@ export default function App() {
 
     async function handleGenerateGame(movie, drinkCount) {
       // Handle the generation of game rules
-      if (movie.trim() !== '' && Number(drinkCount) >= 1 && Number(drinkCount) <= 20) {
+      if (movie.trim() !== '' && Number(drinkCount) >= 1 && Number(drinkCount) <= 50) {
         // Generate new game logic
         setIsLoading(true);
         setGenerationError(false);
@@ -28,7 +28,7 @@ export default function App() {
         else
           setGenerationError(true);
       } else {
-        console.log('Invalid input. Please provide a movie and drinks between 1 and 20.');
+        console.log('Invalid input. Please provide a movie and drinks between 1 and 50.');
         setGameGenerated(false);
         setGenerationError(true);
       }
@@ -54,7 +54,7 @@ export default function App() {
         }
     
         const data = await response.json();
-        /*const data = {
+        /*const data = { example response
           "statusCode": 200,
           "headers": {
             "Access-Control-Allow-Origin": "*",

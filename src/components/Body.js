@@ -3,7 +3,7 @@ import React from "react"
 export default function Body() {
     return (
         <header className="body">
-            <h2 className="body--text">Select your movie and how many drinks you’d like to consume... we’ll do the thinking</h2>
+            <h2 className="body--text">Choose your movie and desired drinks. We’ll do the thinking... you do the drinking!</h2>
         </header>
     )
 }
